@@ -287,9 +287,10 @@ img {
 }
 
 .home_img {
-  width: 220px;
+  width: 250px;
   justify-self: center;
   mask-image: linear-gradient(to bottom, hsla(var(--hue), 40%, 16%) 60%, transparent 100%);
+  border-radius: 0% 15% 0% 15%;
 }
 
 .home_name {
@@ -438,6 +439,12 @@ img {
 
 .work_link:hover i {
   transform: translateX(.5rem);
+}
+
+.work_img{
+  width: 70%;
+  height: 70%;
+  
 }
 
 
